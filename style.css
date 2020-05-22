@@ -1,0 +1,52 @@
+body{
+    background-image: url(waterforest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 40px;
+    color: cornflowerblue;
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    
+}
+input[type=text] , input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background-color: rgb(5, 5, 4);
+    outline: none;
+    border: none;
+    border-bottom:1px dotted rgb(240, 240, 145);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background:60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: chocolate;
+}
+input[type=submit] :hover {
+    background: #003366;
+    opacity: 0.7;
+
+}
